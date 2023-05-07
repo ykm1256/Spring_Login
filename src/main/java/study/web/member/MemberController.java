@@ -8,14 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import study.domain.member.Member;
 import study.domain.member.MemberCreateForm;
 import study.domain.member.MemberDetail;
 import study.domain.member.MemberService;
-
-import java.security.Principal;
 
 @Slf4j
 @Controller
